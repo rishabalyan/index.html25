@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Corrected Form</title>
+</head>
+<body>
+  <form action="/action.php">
+    <br><br>
+
+    <!-- Username Input -->
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" placeholder="Enter your username here" required><br><br>
+
+    <!-- Password Input -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password here" required><br><br>
+
+    <!-- Class Selection -->
+    <p>Select your class:</p>
+    <input type="radio" id="classXI" name="class" value="XI">
+    <label for="classXI">Class XI</label><br>
+
+    <input type="radio" id="classXII" name="class" value="XII">
+    <label for="classXII">Class XII</label><br><br>
+
+    <!-- Subject Checkboxes -->
+    <p>Select your subjects:</p>
+    <input type="checkbox" id="math101" name="subject" value="Math101">
+    <label for="math101">Math 101</label><br>
+
+    <input type="checkbox" id="math102" name="subject" value="Math102">
+    <label for="math102">Math 102</label><br>
+
+    <input type="checkbox" id="math103" name="subject" value="Math103">
+    <label for="math103">Math 103</label><br>
+
+    <input type="checkbox" id="math104" name="subject" value="Math104">
+    <label for="math104">Math 104</label><br><br>
+
+    <!-- City Selection -->
+    <label for="city">Select your city:</label>
+    <select name="city" id="city">
+      <option value="Delhi">Delhi</option>
+      <option value="Mumbai">Mumbai</option>
+      <option value="Bangalore">Bangalore</option>
+    </select><br><br>
+
+    <!-- YouTube Video Embed -->
+    <p>Watch this helpful video:</p>
+    <iframe width="560" height="315" 
+      src="https://www.youtube.com/embed/fTFRMziG8Ww?si=qEvUsCR_Kw6w-fcf" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      referrerpolicy="strict-origin-when-cross-origin" 
+      allowfullscreen>
+    </iframe><br><br>
+    <iframe src="https://www.wikipedia.org/"
+
+    <!-- Feedback Section -->
+    <label for="feedback">Add Feedback:</label><br>
+    <textarea name="feedback" id="feedback" placeholder="Please add your feedback here" rows="5" cols="40"></textarea><br><br>
+
+    <!-- Submit -->
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
